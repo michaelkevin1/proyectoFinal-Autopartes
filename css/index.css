@@ -9,8 +9,8 @@
 .header{
 }
 .wrapper{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .nav-1{
     display: flex;
@@ -58,6 +58,8 @@
 
 /* carrusel1 */
 .carrusel_1{
+    display: flex;
+    justify-content: center;
 }
 .carrusel_1 .carousel{
     width: 100%;
