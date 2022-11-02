@@ -50,6 +50,9 @@ body{
     align-items: center;
     justify-items: center;
 }
+.div_presentacion div{
+    /* padding: 2rem; */
+}
 .video_1{
     width: 100%;
 }
