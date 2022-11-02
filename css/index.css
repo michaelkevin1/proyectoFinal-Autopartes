@@ -17,6 +17,7 @@
     justify-content: space-between;
     padding: .5rem;
     align-items: center;
+    justify-items: center;
     background-color: #1a1b25;
 }
 .nav-1 img{
@@ -37,4 +38,20 @@
 }
 .ul__1 li a{
     text-decoration: none;
+}
+.sect_video{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.video_1{
+    width: 100%;
+}
+.hola{
+    color: yellow;
+    display: flex;
+    position: absolute;
 }
