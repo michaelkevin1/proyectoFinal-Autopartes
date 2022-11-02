@@ -1,10 +1,69 @@
+@import url(./varibles.css);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.header{
+}
 .wrapper{
     margin-left: 10%;
     margin-right: 10%;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+    justify-items: center;
+    background-color: #1a1b25;
+}
+.nav-1 img{
+    width: 5rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.ul__1{
+    display: flex;
+    padding: 0 1rem;
+}
+.ul__1 i{
+    color: #fff;
+}
+.ul__1 li{
+    padding: 0 .5rem;
+    list-style: none;
+}
+.ul__1 li a{
+    text-decoration: none;
+}
+.sect_video{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.video_1{
+    width: 100%;
+}
+.hola{
+    color: yellow;
+    display: flex;
+    position: absolute;
+}
+
+/* carrusel1 */
+.carrusel_1{
+}
+.carrusel_1 .carousel{
+    width: 100%;
+    height: 15rem;
+}
+.carrusel_1 img{
+    width: 50rem;
+    height: 15rem;
 }
