@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/hamburgesa.css">
+    <link rel="stylesheet" href="./css/mediaQuery.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Autopartes</title>
 </head>
+
 <body>
     <div class="wrapper">
-        
+        <header class="header">
+            <nav class="nav1">
+                <picture class="box__nav-img">
+                    <img src="./src/logo/logo.png" alt="">
+                </picture>
+                <ul class="box__icons-user">
+                    <li><a href=""><i class="fa-solid fa-user"></i> Sign in</a></li>
+                    <li><a href=""><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <ul class="nav2__box1">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+                <div class="box__input">
+                    <form action="">
+                        <input class="input-search" type="text" placeholder="Search">
+                        <button class="btn-search"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="box__icons-shop">
+                    <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </div>
+            </nav>
+
+            <nav class="nav__responsive">
+                <div class="icono-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="cont-menu active" id="menu">
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Sobre nosotros</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="container-1">
+                    <div class="box__input2">
+                        <form action="" class="form_search">
+                            <input class="input-search2" type="text" placeholder="Search">
+                            <button class="btn-search2"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="box__icons-shop2">
+                        <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
