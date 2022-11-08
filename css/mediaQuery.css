@@ -104,7 +104,7 @@
 /* nav__responsive */
 .nav__responsive{
     display: none;
-}
+    }
 }
 /* latop */
 @media (max-width: 1023px){
